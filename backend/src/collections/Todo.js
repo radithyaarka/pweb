@@ -63,10 +63,10 @@ const Todo = {
         required: true,
       },
       {
-        name: 'Jobdesk',
+        name: 'Category',
         type: 'relationship',
         required: true,
-        relationTo: 'Jobdesk',
+        relationTo: 'Category',
       },
     ],
   };
